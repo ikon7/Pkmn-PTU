@@ -1,7 +1,5 @@
-const shinyPokemonRate = require("../Shiny Pokemon");
 
-
-var pokemonInRoute = [
+var cave = [
     'Charmander', 'Charmeleon', 'Charizard', 'Cyndaquil', 'Quilava', 'Typhlosion', 'Chimchar', 'Monferno', 'Infernape', 'Pignite', 'Emboar', 'Zubat', 
     'Golbat', 'Crobat', 'Cleffa', 'Clefairy', 'Clefable', 'Igglybuff', 'Jigglypuff', 'Wigglytuff', 'Whismur', 'Loudred', 'Exploud', 'Weepinbell', 'Victreebel', 
     'Shinx', 'Luxio', 'Luxray', 'Tynamo', 'Eelektrik', 'Eelektross', 'Magby', 'Magmar', 'Magmortar', 'Vanillite', 'Vanillish', 'Vanilluxe', 'Solosis', 'Duosion', 
@@ -22,22 +20,7 @@ var pokemonInRoute = [
 ];
 
 
-function pokemonGenerator(typing, amountOfPokemon) {
-    let newPokemonArr = [];
-    
-
-    for (let counter = 0; counter < amountOfPokemon; counter++) {
-        const chosenPokemon = typing[Math.floor(Math.random() * typing.length)];
-        newPokemonArr.push(chosenPokemon);
-        shinyPokemonRate();
-    };
-    console.log(newPokemonArr);
-};
-
-
-
-// (wild pokemon in route(dont change), # of pokemon wanted) example: (pokemonInRoute, 5) => random 5 pokemon 
-pokemonGenerator(pokemonInRoute, );
+module.exports = cave;
 
 
 

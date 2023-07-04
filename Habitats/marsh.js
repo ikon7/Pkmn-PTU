@@ -1,6 +1,5 @@
-const shinyPokemonRate = require("../Shiny Pokemon");
 
-var pokemonInRoute = [
+var marsh = [
     'Turtwig', 'Grotle', 'Torterra', 'Totodile', 'Croconaw', 'Feraligatr', 'Mudkip', 'Marshtomp', 
     'Oddish', 'Gloom', '', 'Vileplume', 'Bellossom', 'Bellsprout', 'Weepinbell', 'Victreebel', 'Poliwag', 
     'Poliwhirl', 'Poliwrath', 'Politoed', 'Tympole', 'Palpitoad', 'Seismitoad', 'Bidoof', 'Bibarel', 'Yanma', 
@@ -13,19 +12,4 @@ var pokemonInRoute = [
     'BELLIBOLT', 'FLAMIGO', 'WOOPER', 'CLODSIRE'
 ];
 
-function pokemonGenerator(typing, amountOfPokemon) {
-    let newPokemonArr = [];
-    
-
-    for (let counter = 0; counter < amountOfPokemon; counter++) {
-        const chosenPokemon = typing[Math.floor(Math.random() * typing.length)];
-        newPokemonArr.push(chosenPokemon);
-        shinyPokemonRate();
-    };
-    console.log(newPokemonArr);
-};
-
-
-
-// (wild pokemon in route(dont change), # of pokemon wanted) example: (pokemonInRoute, 5) => random 5 pokemon 
-pokemonGenerator(pokemonInRoute, );
+module.exports = marsh;

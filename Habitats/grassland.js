@@ -1,6 +1,5 @@
-const shinyPokemonRate = require("../Shiny Pokemon");
 
-var pokemonInRoute = [
+var grassland = [
     'Bulbasaur', 'Ivysaur', 'Venusaur', 'Chikorita', 'Bayleef', 'Meganium', 'Torchic', 'Combusken', 
     'Blaziken', 'Tepig', 'Pignite', 'Emboar', 'Starly', 'Staravia', 'Staraptor', 'Pidove', 'Tranquill', 
     'Unfezant', 'NidoranF', 'Nidorina', 'Nidoqueen', 'NidoranM', 'Nidorino', 'Nidoking', 'Igglybuff', 'Jigglypuff', 
@@ -34,19 +33,4 @@ var pokemonInRoute = [
     'Tauros(paldea, aqua breed)'
 ];
 
-function pokemonGenerator(typing, amountOfPokemon) {
-    let newPokemonArr = [];
-    
-
-    for (let counter = 0; counter < amountOfPokemon; counter++) {
-        const chosenPokemon = typing[Math.floor(Math.random() * typing.length)];
-        newPokemonArr.push(chosenPokemon);
-        shinyPokemonRate();
-    };
-    console.log(newPokemonArr);
-};
-
-
-
-// (wild pokemon in route(dont change), # of pokemon wanted) example: (pokemonInRoute, 5) => random 5 pokemon 
-pokemonGenerator(pokemonInRoute, );
+module.exports = grassland;

@@ -7,6 +7,12 @@ const blackBelt = require("./trainerClass/blackBelt");
 const worker = require("./trainerClass/worker");
 const student = require("./trainerClass/student");
 const officeWorker = require("./trainerClass/officeWorker");
+const artist = require("./trainerClass/artist");
+const dragonTamer = require("./trainerClass/dragonTamer");
+const cabbie = require("./trainerClass/cabbie");
+const cook = require("./trainerClass/cook");
+const courier = require("./trainerClass/courier");
+const scientist = require("./trainerClass/scientist");
 
 
 function pokemonTeamGenerator(trainerTypeArray, amountOfPokemon) {
@@ -21,5 +27,5 @@ function pokemonTeamGenerator(trainerTypeArray, amountOfPokemon) {
 
 
 //parameters: pokemon type/trainer, num of pokemon wanted in trainer team
-pokemonTeamGenerator(waitress, 1);
+pokemonTeamGenerator(courier, 1);
 

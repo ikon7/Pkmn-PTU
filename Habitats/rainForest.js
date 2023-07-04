@@ -1,6 +1,5 @@
-const shinyPokemonRate = require("../Shiny Pokemon");
 
-var pokemonInRoute = [
+var rainForest = [
     'Petilil', 'Lilligant', 'Shroomish', 'Breloom', 'Exeggcute', 'Exeggutor', 'Mankey', 'Primeape', 'Purrloin', 
     'Liepard', 'Pansage', 'Simisage', 'Pansear', 'Simisear', 'Panpour', 'Simipour', 'Chatot', 'Kangaskhan', 'Shuckle', 
     'Pinsir', 'Heracross', 'Carnivine', 'Tropius', 'Volbeat', 'Illumise', 'Leafeon', 'Chespin', 'Quilladin', 'Chesnaught', 
@@ -16,19 +15,4 @@ var pokemonInRoute = [
 ];
 
 
-function pokemonGenerator(typing, amountOfPokemon) {
-    let newPokemonArr = [];
-    
-
-    for (let counter = 0; counter < amountOfPokemon; counter++) {
-        const chosenPokemon = typing[Math.floor(Math.random() * typing.length)];
-        newPokemonArr.push(chosenPokemon);
-        shinyPokemonRate();
-    };
-    console.log(newPokemonArr);
-};
-
-
-
-// (wild pokemon in route(dont change), # of pokemon wanted) example: (pokemonInRoute, 5) => random 5 pokemon 
-pokemonGenerator(pokemonInRoute, );
+module.exports = rainForest;
