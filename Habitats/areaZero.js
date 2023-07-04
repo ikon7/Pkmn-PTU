@@ -2,9 +2,10 @@ const shinyPokemonRate = require("../Shiny Pokemon");
 
 
 var pokemonInRoute = [
-    "Spheal","Sealeo","Walrein","Cloyster","Seel","Dewgong","Lapras","Bergmite","Avalugg",'POPPLIO', 'BRIONNE', 'PRIMARINA', 
-    'CRABRAWLER', 'CRABOMINABLE', 'WISHIWASHI(solo)', 'WISHIWASHI(school)', 'EISCUE(ice face)', 'EISCUE(noice face)'
+    'GREAT TUSK', 'SCREAM TAIL', 'BRUTE BONNET', 'FLUTTER MANE', 'SLITHER WING', 'SANDY SHOCKS', 'IRON TREADS', 
+    'IRON BUNDLE', 'IRON HANDS', 'IRON JUGULIS', 'IRON MOTH', 'IRON THORNS', 'ROARING MOON', 'IRON VALIANT'
 ];
+
 
 
 function pokemonGenerator(typing, amountOfPokemon) {

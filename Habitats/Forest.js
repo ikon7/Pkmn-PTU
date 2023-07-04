@@ -20,7 +20,16 @@ var pokemonInRoute = [
     'Joltik', 'Galvantula', 'Scyther', 'Hoothoot', 'Noctowl', 'Taillow', 'Swellow', 'Rufflet', 'Braviary', 'Swablu', 'Altaria', 'Stunky', 'Skuntank', 'Skorupi', 'Drapion', 'Dugtrio', 
     'Gligar', 'Phanpy', 'Bonsly', 'Sudowoodo', 'Bronzor', 'Sunkern', 'Tangela', 'Cherubi', 'Cherrim', 'Whimsicott', 'Petilil', 'Lilligant', 'Foongus', 'Amoonguss', 'Shroomish', 'Breloom', 
     'Exeggcute', 'Exeggutor', 'Electrike', 'Manectric', 'Natu', 'Xatu', 'Spoink', 'Grumpig', 'Munna', 'Musharna', 'Mankey', 'Primeape', 'Lucario', 'Murkrow', 'Honchkrow', 'Purrloin', 
-    'Liepard', 'Poochyena', 'Mightyena', 'Zorua', 'Zoroark', 'Misdreavus', 'Mismagius', 'Drifloon', 'Drifblim', 'Pansage'
+    'Liepard', 'Poochyena', 'Mightyena', 'Zorua', 'Zoroark', 'Misdreavus', 'Mismagius', 'Drifloon', 'Drifblim', 'Pansage', 'rowlet', 'dartrix', 'DECIDUEYE', 'PIKIPEK', 'TRUMBEAK', 
+    'TOUCANNON', 'PIKIPEK', 'TRUMBEAK', 'TOUCANNON', 'GRUBBIN', 'CHARJABUG', 'VIKAVOLT', 'ORICORIO', 'CUTIEFLY', 'RIBOMBEE', 'FOMANTIS', 'LURANTIS', 'MORELULL', 'SHIINOTIC', 'STUFFUL', 
+    'BEWEAR', 'BOUNSWEET', 'STEENEE', 'TSAREENA', 'COMFEY', 'ORANGURU', 'PASSIMIAN', 'KOMALA', 'MEOWTH(alola)', 'PERSIAN(alola)', 
+    'EXEGGUTOR(alola)', 'ZERAORA', 'GROOKEY', 'THWACKEYRILLABOOM', 'SKWOVET', 'GREEDENT', 'ROOKIDEE', 'CORVISQUIRE', 'CORVIKNIGHT', 
+    'NICKIT', 'THIEVUL', 'APPLIN', 'FLAPPLE', 'APPLETUN', 'SIZZLIPEDE', 'CENTISKORCH', 'HATENNA', 'HATTREM', 'HATTERENE', 'IMPIDIMP', 
+    'MORGREM', 'GRIMMSNARL', 'INDEEDEE(male)', 'INDEEDEE(female)', 'MORPEKO', 'DRACOZOLT', 'DRACOVISH', 'ARCTOVISH', 'DREEPY', 
+    'DRAKLOAK', 'DRAGAPULT', 'MEOWTH(galar)', 'PERRSERKER', 'PONYTA(galar)', 'RAPIDASH(galar)', 'WEEZING(galar)', 'ZIGZAGOON(galar)', 
+    'LINOONE(galar)', 'OBSTAGOON', 'SPRIGATITO', 'FLORAGATO', 'MEOWSCARADA', 'LECHONK', 'OINKOLOGNE(male)', 'OINKOLOGNE(female)', 
+    'TAROUNTULA', 'SPIDOPS', 'SMOLIV', 'DOLLIV', 'ARBOLIVA', 'SHROODLE', 'GRAFAIAI', 'TOEDSCOOL', 'TOEDSCRUEL', 'ANNIHILAPE', 
+    'DUDUNSPARCE' 
 ];
     
 
